@@ -32,3 +32,12 @@ ChessBoard is an implementation of the laws of chess. It validates moves, tests 
 - Export moves in the AN, SAN and LAN standards.
 - Undo and Redo.
 - Goto a specified move.
+
+### Chess/Checkers AI
+
+The chessbot.py is a self contained file that takes a total of 4 inputs: the x and y of the piece's current position
+and the x and y cordinate of the place the space the player wants to move the piece. It does know how to detect wrong moves.
+
+main.py, gamebot.py and checkers.py are all part of the same checkers AI. I have not had the chance to test its capabilites. 
+The only problem ive run into is that it has to reference a png file which I have not had been able to figure out yet. The png file will also be added.
+r
