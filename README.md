@@ -30,7 +30,4 @@ Senior Project Code.
 - Add text moves in the AN, SAN and LAN standards.
 - Export moves in the AN, SAN and LAN standards.
 - Undo and Redo.
-- Goto a specified move. 
-
-
-
+- Goto a specified move.
