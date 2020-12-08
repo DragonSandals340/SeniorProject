@@ -38,9 +38,11 @@ ChessBoard is an implementation of the laws of chess. It validates moves, tests 
 The chessbot.py is a self contained file that takes a total of 4 inputs: the x and y of the piece's current position
 and the x and y cordinate of the place the space the player wants to move the piece. It does know how to detect wrong moves.
 Lines of code that control input 416-424
+lines of code that control possible moves 92-100 and 134-226
 code referenced from https://github.com/thomasahle/sunfish/blob/master/sunfish.py 
 
 main.py, gamebot.py and checkers.py are all part of the same checkers AI. I have not had the chance to test its capabilites. 
 The only problem ive run into is that it has to reference a png file which I have not had been able to figure out yet. The png file will also be added.
-modify input in the main file
+lines 378 - 404 in checkers.py contains code for detecting and showing legal moves
+lines 412 - 420 in checkers.py contains code for controling the input
 code referenced from https://github.com/Hsankesara/Draughts-AI
